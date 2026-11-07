@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "firmware": "c69af3a6079e42637678bccb91373134535c4ce6",
+  "settingsCases": [
+    {
+      "callsign": "ABCDEFGHIJK",
+      "ituZone": 1,
+      "frequencyMHz": 144.02,
+      "valid": true
+    },
+    {
+      "callsign": "ABCDEFGHIJKL",
+      "ituZone": 1,
+      "frequencyMHz": 144.02,
+      "valid": false
+    },
+    {
+      "callsign": "N0CALL",
+      "ituZone": 1,
+      "frequencyMHz": 145.98,
+      "valid": true
+    },
+    {
+      "callsign": "N0CALL",
+      "ituZone": 1,
+      "frequencyMHz": 145.981,
+      "valid": false
+    },
+    {
+      "callsign": "N0CALL",
+      "ituZone": 2,
+      "frequencyMHz": 147.98,
+      "valid": true
+    },
+    {
+      "callsign": "N0CALL",
+      "ituZone": 3,
+      "frequencyMHz": 148.0,
+      "valid": false
+    }
+  ],
+  "otherSettingsDefaults": {
+    "dutyCycle": 100,
+    "attenuation": 0,
+    "morseWPM": 15,
+    "farnsworthWPM": 15,
+    "toneHz": 600,
+    "toneVolume": 70
+  },
+  "waveFixture": {
+    "file": "audio.wav",
+    "sampleRate": 5000,
+    "channels": 1,
+    "bits": 16,
+    "frames": 5000,
+    "headerBytes": 44,
+    "fileBytes": 10044
+  },
+  "powerCases": [
+    {
+      "attenuation": 0,
+      "nominalMilliwatts": 65
+    },
+    {
+      "attenuation": 40,
+      "nominalMilliwatts": 6.5
+    },
+    {
+      "attenuation": 80,
+      "nominalMilliwatts": 0.65
+    }
+  ],
+  "editCase": {
+    "input": "10000 constant samples of 0.5 at 5000 Hz",
+    "start": 0.5,
+    "end": 1.5,
+    "gainDB": 0,
+    "normalize": true,
+    "fadeSeconds": 0.01,
+    "outputFrames": 5000,
+    "firstSample": 0,
+    "lastSample": 0,
+    "sample100": 0.95
+  }
+}

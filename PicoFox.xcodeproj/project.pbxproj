@@ -1,0 +1,877 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0512CE17061A2483D01DB24F /* PicoFoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A03909A071AB4928F54A0FD /* PicoFoxApp.swift */; };
+		1347EEB1F7D334273C3575FE /* DeviceConnectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB29A4459243C95A94CE394 /* DeviceConnectionTests.swift */; };
+		150B8F7F5E6C2909DE608128 /* PicoFoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A03909A071AB4928F54A0FD /* PicoFoxApp.swift */; };
+		1E958601AE64AE086CF46FBB /* Privacy.md in Resources */ = {isa = PBXBuildFile; fileRef = DA1623145446E764A753E391 /* Privacy.md */; };
+		259067E68E5AFD5FE5008A76 /* AudioCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8828D6C7F8E1AB4ACFFC1FD0 /* AudioCreationView.swift */; };
+		28393F76D24DE012E85F50E9 /* DeviceFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1BB806E4EDA23871378759 /* DeviceFiles.swift */; };
+		32F196B3F8095AE404DEA048 /* FactoryRestoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4337CF85EBD3AF598F44E0 /* FactoryRestoreTests.swift */; };
+		3B0BB24EC7C71D04CE29532F /* AudioPlayback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6722EC0CC8D37E4DBC40B347 /* AudioPlayback.swift */; };
+		3C1C75080FEC54E5F5107E05 /* AudioQualityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0405A439A3CA40253DB6FD67 /* AudioQualityTests.swift */; };
+		3F8AE40677E8B05D704DFFDA /* DeviceFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1BB806E4EDA23871378759 /* DeviceFiles.swift */; };
+		406B15C272AE4B064CE9C122 /* AudioImport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456EA8B4EE14760095748B28 /* AudioImport.swift */; };
+		45BF90E92CDF88A7AE33F5A4 /* AudioPreviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736D7D2DC847CE4FDCB023C7 /* AudioPreviewTests.swift */; };
+		462FB4AD3B26C9D1F480C773 /* AppInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C06903B1FB002C7F29110B1 /* AppInformationView.swift */; };
+		4BD40B921B79B7DBF185DAF4 /* AudioEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403414E52E674D63C97ACBD8 /* AudioEditorView.swift */; };
+		541FE134358DB1619765CE51 /* RadioSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B623873D0C95A90C2FE9419 /* RadioSettingsView.swift */; };
+		54D24E204AC850674BAF2402 /* PicoFoxCore in Frameworks */ = {isa = PBXBuildFile; productRef = B7F12942F78ED66F7E49EFCA /* PicoFoxCore */; };
+		570C58C967CF46CED380270D /* CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4B4008994B8E1F877C2A6 /* CoreTests.swift */; };
+		597CAB312443C1A451E1D6DB /* Support.md in Resources */ = {isa = PBXBuildFile; fileRef = 3DE598B8F76C3794491ACAAA /* Support.md */; };
+		5BCC57C9C1B316A143BF3E83 /* SpeechAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354AB9E3BC700E736974976 /* SpeechAudio.swift */; };
+		61C767E58C03FFA5A92F84C2 /* FactoryAudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B5F51D5E74BD9C14CF3A0C /* FactoryAudioTests.swift */; };
+		656D4469AE7E5A16F07C2AAA /* StudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EC46CC64D6F88D5D53A07D /* StudioView.swift */; };
+		6596B517F81CC442DB3590B6 /* PicoFoxCore in Frameworks */ = {isa = PBXBuildFile; productRef = AA80626C401EF3B7ACBD833C /* PicoFoxCore */; };
+		691949C405528604D94F6EED /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 7BF1F5CC68E10FEF91799F4E /* PrivacyInfo.xcprivacy */; };
+		6A2048FCDA7491FCB27B008F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3756511FFD518A453AA4A478 /* Assets.xcassets */; };
+		6BBE1720ADEAEB785677A513 /* AudioPlaybackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D82DDD21ED7F8323C7B29F /* AudioPlaybackTests.swift */; };
+		6D9ADAA326CF1E13D44B5E3F /* SpeechLevelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D35F484AF203B9C9043A6EC /* SpeechLevelTests.swift */; };
+		72EBF780A990F010DD13A500 /* AppInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C06903B1FB002C7F29110B1 /* AppInformationView.swift */; };
+		7A579E7E7B1D90B2EE9A3622 /* AudioImportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C5C2AC95AC0720BE04574 /* AudioImportTests.swift */; };
+		7ADB3E5F54AFBE9EC439165B /* Support.md in Resources */ = {isa = PBXBuildFile; fileRef = 3DE598B8F76C3794491ACAAA /* Support.md */; };
+		8381AB66285A6B0FEDC3B76A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3756511FFD518A453AA4A478 /* Assets.xcassets */; };
+		85B0528A1DE0D9B778021D77 /* StudioPlaybackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A5E3F88D879A96754689F4 /* StudioPlaybackTests.swift */; };
+		8FAB0E33226B86D23BC71830 /* AudioEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403414E52E674D63C97ACBD8 /* AudioEditorView.swift */; };
+		98681EB4D51B5C528D51E637 /* AudioCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB94A41C35CAFFAF3FF947D /* AudioCapture.swift */; };
+		9BB5C114BA69C006E5244ABB /* AudioCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8828D6C7F8E1AB4ACFFC1FD0 /* AudioCreationView.swift */; };
+		9E1806E2698C69A62B65A5A3 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 7BF1F5CC68E10FEF91799F4E /* PrivacyInfo.xcprivacy */; };
+		A5F17BA98B5C6597D163FC68 /* SpeechAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354AB9E3BC700E736974976 /* SpeechAudio.swift */; };
+		B3460C10FCB75029EEA39D07 /* AudioPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06512CB949CA75A95B099B5 /* AudioPreview.swift */; };
+		BAFCAEB6C4E1060DBD0E3B4D /* AudioImport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456EA8B4EE14760095748B28 /* AudioImport.swift */; };
+		C25652357F24EBDE0433DD06 /* SpeechAudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227B0BDDA347DCE494FEC66 /* SpeechAudioTests.swift */; };
+		CBA5057CC56CF52711B632DF /* DeviceAudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3688835B9AAD18F41D71CD9E /* DeviceAudioTests.swift */; };
+		CE4E30A4167F03EEA4B5875F /* DeviceFilesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CD5BC38374BD834FC54C5D /* DeviceFilesTests.swift */; };
+		D205202D7B081DEA47927DC0 /* AudioPlayback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6722EC0CC8D37E4DBC40B347 /* AudioPlayback.swift */; };
+		D316A8782EED578ACBA2F5BC /* StudioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBB66DF04DA436ECD7D860F /* StudioModel.swift */; };
+		D9B70DCE71FF5002A745B225 /* AudioPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06512CB949CA75A95B099B5 /* AudioPreview.swift */; };
+		DDFD7339D2B3498D6B67110F /* RadioSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B623873D0C95A90C2FE9419 /* RadioSettingsView.swift */; };
+		E0F36FDF2A1DD75701279466 /* StudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EC46CC64D6F88D5D53A07D /* StudioView.swift */; };
+		E13D22AA8E8BE24D5450F0BE /* StudioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBB66DF04DA436ECD7D860F /* StudioModel.swift */; };
+		E5E55D8EDDD69B7500239456 /* AudioCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB94A41C35CAFFAF3FF947D /* AudioCapture.swift */; };
+		EED79BE7AA76ADAD7E06DA19 /* Privacy.md in Resources */ = {isa = PBXBuildFile; fileRef = DA1623145446E764A753E391 /* Privacy.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07FD1C7DA404AA2909C27EE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BB0A965F6BBAE39F1E089EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06D4EDC67EF40A6DDF36007C;
+			remoteInfo = PicoFoxMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0405A439A3CA40253DB6FD67 /* AudioQualityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioQualityTests.swift; sourceTree = "<group>"; };
+		05D82DDD21ED7F8323C7B29F /* AudioPlaybackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlaybackTests.swift; sourceTree = "<group>"; };
+		0B0C5C2AC95AC0720BE04574 /* AudioImportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioImportTests.swift; sourceTree = "<group>"; };
+		12E4B4008994B8E1F877C2A6 /* CoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTests.swift; sourceTree = "<group>"; };
+		1B9CFB461D2E9258ADED7703 /* PicoFoxMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicoFoxMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35CFE50E5E7C72A630C51F0D /* PicoFox.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PicoFox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3688835B9AAD18F41D71CD9E /* DeviceAudioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceAudioTests.swift; sourceTree = "<group>"; };
+		3756511FFD518A453AA4A478 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AB29A4459243C95A94CE394 /* DeviceConnectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceConnectionTests.swift; sourceTree = "<group>"; };
+		3DE598B8F76C3794491ACAAA /* Support.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Support.md; sourceTree = "<group>"; };
+		403414E52E674D63C97ACBD8 /* AudioEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEditorView.swift; sourceTree = "<group>"; };
+		456EA8B4EE14760095748B28 /* AudioImport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioImport.swift; sourceTree = "<group>"; };
+		52105BD165654B5070DAD0EE /* PicoFoxMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PicoFoxMac.entitlements; sourceTree = "<group>"; };
+		59CD5BC38374BD834FC54C5D /* DeviceFilesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceFilesTests.swift; sourceTree = "<group>"; };
+		5A03909A071AB4928F54A0FD /* PicoFoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicoFoxApp.swift; sourceTree = "<group>"; };
+		5D933B44893A4635B38B8613 /* PicoFox */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PicoFox; path = .; sourceTree = SOURCE_ROOT; };
+		61B5F51D5E74BD9C14CF3A0C /* FactoryAudioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryAudioTests.swift; sourceTree = "<group>"; };
+		6722EC0CC8D37E4DBC40B347 /* AudioPlayback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayback.swift; sourceTree = "<group>"; };
+		736D7D2DC847CE4FDCB023C7 /* AudioPreviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPreviewTests.swift; sourceTree = "<group>"; };
+		7BF1F5CC68E10FEF91799F4E /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		8227B0BDDA347DCE494FEC66 /* SpeechAudioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechAudioTests.swift; sourceTree = "<group>"; };
+		8828D6C7F8E1AB4ACFFC1FD0 /* AudioCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCreationView.swift; sourceTree = "<group>"; };
+		8C06903B1FB002C7F29110B1 /* AppInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInformationView.swift; sourceTree = "<group>"; };
+		8D35F484AF203B9C9043A6EC /* SpeechLevelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechLevelTests.swift; sourceTree = "<group>"; };
+		9B1BB806E4EDA23871378759 /* DeviceFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceFiles.swift; sourceTree = "<group>"; };
+		9B623873D0C95A90C2FE9419 /* RadioSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioSettingsView.swift; sourceTree = "<group>"; };
+		A7C33A25C84E6BF6392AB3BD /* PicoFoxMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicoFoxMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEBB66DF04DA436ECD7D860F /* StudioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioModel.swift; sourceTree = "<group>"; };
+		B9EC46CC64D6F88D5D53A07D /* StudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioView.swift; sourceTree = "<group>"; };
+		D06512CB949CA75A95B099B5 /* AudioPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPreview.swift; sourceTree = "<group>"; };
+		DA1623145446E764A753E391 /* Privacy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Privacy.md; sourceTree = "<group>"; };
+		EBB94A41C35CAFFAF3FF947D /* AudioCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCapture.swift; sourceTree = "<group>"; };
+		ED4337CF85EBD3AF598F44E0 /* FactoryRestoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryRestoreTests.swift; sourceTree = "<group>"; };
+		F354AB9E3BC700E736974976 /* SpeechAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechAudio.swift; sourceTree = "<group>"; };
+		F3A5E3F88D879A96754689F4 /* StudioPlaybackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioPlaybackTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2F5906D5DDC0983239A3746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6596B517F81CC442DB3590B6 /* PicoFoxCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F604F8D2B3F2718159D376 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D24E204AC850674BAF2402 /* PicoFoxCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3926FA233C446B49B2E88A17 /* AppleTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B0C5C2AC95AC0720BE04574 /* AudioImportTests.swift */,
+				05D82DDD21ED7F8323C7B29F /* AudioPlaybackTests.swift */,
+				736D7D2DC847CE4FDCB023C7 /* AudioPreviewTests.swift */,
+				3AB29A4459243C95A94CE394 /* DeviceConnectionTests.swift */,
+				59CD5BC38374BD834FC54C5D /* DeviceFilesTests.swift */,
+				ED4337CF85EBD3AF598F44E0 /* FactoryRestoreTests.swift */,
+				8227B0BDDA347DCE494FEC66 /* SpeechAudioTests.swift */,
+				8D35F484AF203B9C9043A6EC /* SpeechLevelTests.swift */,
+				F3A5E3F88D879A96754689F4 /* StudioPlaybackTests.swift */,
+			);
+			path = AppleTests;
+			sourceTree = "<group>";
+		};
+		415F5D43A53778A2651E2654 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA1623145446E764A753E391 /* Privacy.md */,
+				7BF1F5CC68E10FEF91799F4E /* PrivacyInfo.xcprivacy */,
+				3DE598B8F76C3794491ACAAA /* Support.md */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4721C54EA64C18033ECEE122 /* PicoFoxCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				0405A439A3CA40253DB6FD67 /* AudioQualityTests.swift */,
+				12E4B4008994B8E1F877C2A6 /* CoreTests.swift */,
+				3688835B9AAD18F41D71CD9E /* DeviceAudioTests.swift */,
+				61B5F51D5E74BD9C14CF3A0C /* FactoryAudioTests.swift */,
+			);
+			name = PicoFoxCoreTests;
+			path = Tests/PicoFoxCoreTests;
+			sourceTree = "<group>";
+		};
+		664AE3EA86D9E7FB3DF6338B /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				5D933B44893A4635B38B8613 /* PicoFox */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		9829B3B82FB6394D300AA70C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3756511FFD518A453AA4A478 /* Assets.xcassets */,
+				5A03909A071AB4928F54A0FD /* PicoFoxApp.swift */,
+				52105BD165654B5070DAD0EE /* PicoFoxMac.entitlements */,
+				415F5D43A53778A2651E2654 /* Resources */,
+				F3CB259EB449B3DE3A9235DD /* Services */,
+				F7111434E2813914AF4B5E16 /* Views */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E7FE1935A0E0B6BE1B35BFB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35CFE50E5E7C72A630C51F0D /* PicoFox.app */,
+				1B9CFB461D2E9258ADED7703 /* PicoFoxMac.app */,
+				A7C33A25C84E6BF6392AB3BD /* PicoFoxMacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0D8EB195A117E557E1AD530 = {
+			isa = PBXGroup;
+			children = (
+				9829B3B82FB6394D300AA70C /* App */,
+				3926FA233C446B49B2E88A17 /* AppleTests */,
+				664AE3EA86D9E7FB3DF6338B /* Packages */,
+				4721C54EA64C18033ECEE122 /* PicoFoxCoreTests */,
+				E7FE1935A0E0B6BE1B35BFB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3CB259EB449B3DE3A9235DD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EBB94A41C35CAFFAF3FF947D /* AudioCapture.swift */,
+				456EA8B4EE14760095748B28 /* AudioImport.swift */,
+				6722EC0CC8D37E4DBC40B347 /* AudioPlayback.swift */,
+				D06512CB949CA75A95B099B5 /* AudioPreview.swift */,
+				9B1BB806E4EDA23871378759 /* DeviceFiles.swift */,
+				F354AB9E3BC700E736974976 /* SpeechAudio.swift */,
+				AEBB66DF04DA436ECD7D860F /* StudioModel.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F7111434E2813914AF4B5E16 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C06903B1FB002C7F29110B1 /* AppInformationView.swift */,
+				8828D6C7F8E1AB4ACFFC1FD0 /* AudioCreationView.swift */,
+				403414E52E674D63C97ACBD8 /* AudioEditorView.swift */,
+				9B623873D0C95A90C2FE9419 /* RadioSettingsView.swift */,
+				B9EC46CC64D6F88D5D53A07D /* StudioView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06D4EDC67EF40A6DDF36007C /* PicoFoxMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 303476CE1161B13064235843 /* Build configuration list for PBXNativeTarget "PicoFoxMac" */;
+			buildPhases = (
+				851D139A1B937A893BB74F3A /* Sources */,
+				88FD96138F9FB3DFF7B7C1A6 /* Resources */,
+				D2F5906D5DDC0983239A3746 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicoFoxMac;
+			packageProductDependencies = (
+				AA80626C401EF3B7ACBD833C /* PicoFoxCore */,
+			);
+			productName = PicoFoxMac;
+			productReference = 1B9CFB461D2E9258ADED7703 /* PicoFoxMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		348B6BBA8F9B51F0763562BD /* PicoFoxMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7116AD0F87ED1910F98422E6 /* Build configuration list for PBXNativeTarget "PicoFoxMacTests" */;
+			buildPhases = (
+				CED3BCAC076143787320E2F0 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98C078622BB51B4EB6E2EAC6 /* PBXTargetDependency */,
+			);
+			name = PicoFoxMacTests;
+			packageProductDependencies = (
+			);
+			productName = PicoFoxMacTests;
+			productReference = A7C33A25C84E6BF6392AB3BD /* PicoFoxMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE7958036ABCC2D24ABC4890 /* PicoFox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B50417C1F131359DA5024E0 /* Build configuration list for PBXNativeTarget "PicoFox" */;
+			buildPhases = (
+				EDA25081293C35C13832A4B1 /* Sources */,
+				2CCB238B4E44FEDBDD5FD4CF /* Resources */,
+				E9F604F8D2B3F2718159D376 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicoFox;
+			packageProductDependencies = (
+				B7F12942F78ED66F7E49EFCA /* PicoFoxCore */,
+			);
+			productName = PicoFox;
+			productReference = 35CFE50E5E7C72A630C51F0D /* PicoFox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BB0A965F6BBAE39F1E089EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					06D4EDC67EF40A6DDF36007C = {
+						ProvisioningStyle = Automatic;
+					};
+					348B6BBA8F9B51F0763562BD = {
+						ProvisioningStyle = Automatic;
+					};
+					AE7958036ABCC2D24ABC4890 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AE7ACCA2ED720E5783B13BDD /* Build configuration list for PBXProject "PicoFox" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F0D8EB195A117E557E1AD530;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E351FE5F2771AA78F03746D4 /* XCLocalSwiftPackageReference "." */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E7FE1935A0E0B6BE1B35BFB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE7958036ABCC2D24ABC4890 /* PicoFox */,
+				06D4EDC67EF40A6DDF36007C /* PicoFoxMac */,
+				348B6BBA8F9B51F0763562BD /* PicoFoxMacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CCB238B4E44FEDBDD5FD4CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8381AB66285A6B0FEDC3B76A /* Assets.xcassets in Resources */,
+				1E958601AE64AE086CF46FBB /* Privacy.md in Resources */,
+				9E1806E2698C69A62B65A5A3 /* PrivacyInfo.xcprivacy in Resources */,
+				7ADB3E5F54AFBE9EC439165B /* Support.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88FD96138F9FB3DFF7B7C1A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A2048FCDA7491FCB27B008F /* Assets.xcassets in Resources */,
+				EED79BE7AA76ADAD7E06DA19 /* Privacy.md in Resources */,
+				691949C405528604D94F6EED /* PrivacyInfo.xcprivacy in Resources */,
+				597CAB312443C1A451E1D6DB /* Support.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		851D139A1B937A893BB74F3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72EBF780A990F010DD13A500 /* AppInformationView.swift in Sources */,
+				98681EB4D51B5C528D51E637 /* AudioCapture.swift in Sources */,
+				259067E68E5AFD5FE5008A76 /* AudioCreationView.swift in Sources */,
+				8FAB0E33226B86D23BC71830 /* AudioEditorView.swift in Sources */,
+				BAFCAEB6C4E1060DBD0E3B4D /* AudioImport.swift in Sources */,
+				3B0BB24EC7C71D04CE29532F /* AudioPlayback.swift in Sources */,
+				B3460C10FCB75029EEA39D07 /* AudioPreview.swift in Sources */,
+				28393F76D24DE012E85F50E9 /* DeviceFiles.swift in Sources */,
+				0512CE17061A2483D01DB24F /* PicoFoxApp.swift in Sources */,
+				541FE134358DB1619765CE51 /* RadioSettingsView.swift in Sources */,
+				A5F17BA98B5C6597D163FC68 /* SpeechAudio.swift in Sources */,
+				E13D22AA8E8BE24D5450F0BE /* StudioModel.swift in Sources */,
+				E0F36FDF2A1DD75701279466 /* StudioView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED3BCAC076143787320E2F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A579E7E7B1D90B2EE9A3622 /* AudioImportTests.swift in Sources */,
+				6BBE1720ADEAEB785677A513 /* AudioPlaybackTests.swift in Sources */,
+				45BF90E92CDF88A7AE33F5A4 /* AudioPreviewTests.swift in Sources */,
+				3C1C75080FEC54E5F5107E05 /* AudioQualityTests.swift in Sources */,
+				570C58C967CF46CED380270D /* CoreTests.swift in Sources */,
+				CBA5057CC56CF52711B632DF /* DeviceAudioTests.swift in Sources */,
+				1347EEB1F7D334273C3575FE /* DeviceConnectionTests.swift in Sources */,
+				CE4E30A4167F03EEA4B5875F /* DeviceFilesTests.swift in Sources */,
+				61C767E58C03FFA5A92F84C2 /* FactoryAudioTests.swift in Sources */,
+				32F196B3F8095AE404DEA048 /* FactoryRestoreTests.swift in Sources */,
+				C25652357F24EBDE0433DD06 /* SpeechAudioTests.swift in Sources */,
+				6D9ADAA326CF1E13D44B5E3F /* SpeechLevelTests.swift in Sources */,
+				85B0528A1DE0D9B778021D77 /* StudioPlaybackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA25081293C35C13832A4B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462FB4AD3B26C9D1F480C773 /* AppInformationView.swift in Sources */,
+				E5E55D8EDDD69B7500239456 /* AudioCapture.swift in Sources */,
+				9BB5C114BA69C006E5244ABB /* AudioCreationView.swift in Sources */,
+				4BD40B921B79B7DBF185DAF4 /* AudioEditorView.swift in Sources */,
+				406B15C272AE4B064CE9C122 /* AudioImport.swift in Sources */,
+				D205202D7B081DEA47927DC0 /* AudioPlayback.swift in Sources */,
+				D9B70DCE71FF5002A745B225 /* AudioPreview.swift in Sources */,
+				3F8AE40677E8B05D704DFFDA /* DeviceFiles.swift in Sources */,
+				150B8F7F5E6C2909DE608128 /* PicoFoxApp.swift in Sources */,
+				DDFD7339D2B3498D6B67110F /* RadioSettingsView.swift in Sources */,
+				5BCC57C9C1B316A143BF3E83 /* SpeechAudio.swift in Sources */,
+				D316A8782EED578ACBA2F5BC /* StudioModel.swift in Sources */,
+				656D4469AE7E5A16F07C2AAA /* StudioView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98C078622BB51B4EB6E2EAC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06D4EDC67EF40A6DDF36007C /* PicoFoxMac */;
+			targetProxy = 07FD1C7DA404AA2909C27EE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D63B586A9FC0B87923B727E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = App/PicoFoxMac.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.picofox.studio.mac;
+				PRODUCT_MODULE_NAME = PicoFoxMac;
+				PRODUCT_NAME = FoxProgrammer;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1D3274FCAE2F4BDDEE75BDD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 11;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FoxProgrammer;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Record audio to create a WAV for your PicoFox.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIFileSharingEnabled = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		2D33B907CFB61E17643624A9 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = App/PicoFoxMac.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.picofox.studio;
+				PRODUCT_MODULE_NAME = PicoFoxMac;
+				PRODUCT_NAME = FoxProgrammer;
+				SDKROOT = macosx;
+			};
+			name = AppStore;
+		};
+		31D89813F814ACF4848C724B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.picofox.studio;
+				PRODUCT_MODULE_NAME = PicoFox;
+				PRODUCT_NAME = FoxProgrammer;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		557D03E9F681D3AB744469A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.picofox.studio.tests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoxProgrammer.app/Contents/MacOS/FoxProgrammer";
+			};
+			name = Release;
+		};
+		901FF9AFB4F7F0324FD746C4 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.picofox.studio.tests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoxProgrammer.app/Contents/MacOS/FoxProgrammer";
+			};
+			name = AppStore;
+		};
+		94453692481E394C88B7B8DA /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.picofox.studio;
+				PRODUCT_MODULE_NAME = PicoFox;
+				PRODUCT_NAME = FoxProgrammer;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = AppStore;
+		};
+		9F08A59B8631848C96F9EB69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = App/PicoFoxMac.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.picofox.studio.mac;
+				PRODUCT_MODULE_NAME = PicoFoxMac;
+				PRODUCT_NAME = FoxProgrammer;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BFF0BDB1E96943D23AD8F63F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.picofox.studio.tests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoxProgrammer.app/Contents/MacOS/FoxProgrammer";
+			};
+			name = Debug;
+		};
+		DB86B20192E3CADD559D2DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.picofox.studio;
+				PRODUCT_MODULE_NAME = PicoFox;
+				PRODUCT_NAME = FoxProgrammer;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAEF5ED39B8E3FD3094DD282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 11;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FoxProgrammer;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Record audio to create a WAV for your PicoFox.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIFileSharingEnabled = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.9;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		FF0D4DF2FCA6F1FCD6B451DC /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 11;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FoxProgrammer;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Record audio to create a WAV for your PicoFox.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIFileSharingEnabled = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = AppStore;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		303476CE1161B13064235843 /* Build configuration list for PBXNativeTarget "PicoFoxMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D33B907CFB61E17643624A9 /* AppStore */,
+				9F08A59B8631848C96F9EB69 /* Debug */,
+				0D63B586A9FC0B87923B727E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = AppStore;
+		};
+		3B50417C1F131359DA5024E0 /* Build configuration list for PBXNativeTarget "PicoFox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94453692481E394C88B7B8DA /* AppStore */,
+				DB86B20192E3CADD559D2DCE /* Debug */,
+				31D89813F814ACF4848C724B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = AppStore;
+		};
+		7116AD0F87ED1910F98422E6 /* Build configuration list for PBXNativeTarget "PicoFoxMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				901FF9AFB4F7F0324FD746C4 /* AppStore */,
+				BFF0BDB1E96943D23AD8F63F /* Debug */,
+				557D03E9F681D3AB744469A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = AppStore;
+		};
+		AE7ACCA2ED720E5783B13BDD /* Build configuration list for PBXProject "PicoFox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0D4DF2FCA6F1FCD6B451DC /* AppStore */,
+				FAEF5ED39B8E3FD3094DD282 /* Debug */,
+				1D3274FCAE2F4BDDEE75BDD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = AppStore;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		E351FE5F2771AA78F03746D4 /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AA80626C401EF3B7ACBD833C /* PicoFoxCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PicoFoxCore;
+		};
+		B7F12942F78ED66F7E49EFCA /* PicoFoxCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PicoFoxCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6BB0A965F6BBAE39F1E089EE /* Project object */;
+}

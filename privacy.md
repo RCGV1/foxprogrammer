@@ -21,7 +21,7 @@ Files and exports
 You decide which files to import, where to export, and when to save to PicoFox. If you choose iCloud Drive or another file provider, that provider handles those files under its own terms and privacy policy. Opening public support or license links uses your browser; GitHub and other website operators may process connection information under their policies.
 
 Retention and deletion
-Unsaved editor audio is discarded when the app exits. Local drafts and backups remain until deleted. On iPhone/iPad, deleting the app removes its local app data; offloading does not. On Mac, quit the app and remove its sandbox container at ~/Library/Containers/app.picofox.studio.mac to remove its local data. Save any backups you wish to keep first. Files exported elsewhere or saved on the radio remain under your control and are not removed by deleting app data.
+Unsaved editor audio is discarded when the app exits. Local drafts and backups remain until deleted. On iPhone/iPad, deleting the app removes its local app data; offloading does not. On Mac, quit the app and remove its sandbox container at ~/Library/Containers/app.picofox.studio (App Store) or ~/Library/Containers/app.picofox.studio.mac (development builds) to remove its local data. Save any backups you wish to keep first. Files exported elsewhere or saved on the radio remain under your control and are not removed by deleting app data.
 
 Contact and changes
 Questions and deletion guidance: https://github.com/RCGV1/foxprogrammer/issues

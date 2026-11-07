@@ -1,0 +1,11 @@
+PicoFox original factory recording
+Creator: AI6YM / Giorgi Enterprises LLC
+Source: https://github.com/ai6ym/PicoFox/blob/c69af3a6079e42637678bccb91373134535c4ce6/PicoFox-Firmware/audio.h
+License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+The full upstream license is included as PICOFOX-LICENSE.txt.
+
+All 288,000 PCM payload bytes are unchanged from the original recording.
+Four WAV header bytes were corrected to describe the actual recording length.
+Canonical WAV: 5,000 Hz, mono, signed PCM16; 144,000 samples; 28.8 seconds.
+PicoFox/AI6YM references identify the source and compatibility, not endorsement.

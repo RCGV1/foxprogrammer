@@ -1,16 +1,13 @@
 ---
-layout: default
+layout: page
 title: FoxProgrammer
+permalink: /
 ---
 
-# FoxProgrammer
+A community project for PicoFox settings and audio on iPhone, iPad and Mac.
 
-A community project for PicoFox settings and audio.
+[Download on the App Store](https://apps.apple.com/app/id6828721649) · [Source code (GPLv3)](https://github.com/RCGV1/foxprogrammer)
 
-Prepare settings, create tones and speech, import recordings, and edit WAV audio on iPhone, iPad and Mac.
+Prepare settings, create tones or speech, record or import audio, and preview, trim and export a PicoFox-compatible WAV. Audio editing works locally without connected hardware.
 
-- [Support](support.html)
-- [Privacy policy](privacy.html)
-- [Report an issue](https://github.com/RCGV1/foxprogrammer/issues)
-
-PicoFox is an AI6YM product. Hardware names identify compatibility.
+[Support](support.html) · [Privacy policy](privacy.html)
