@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0512CE17061A2483D01DB24F /* PicoFoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A03909A071AB4928F54A0FD /* PicoFoxApp.swift */; };
+		0E9E5379494C16EE65090FB8 /* GPL-3.0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6D143EC39261B19BBFA88101 /* GPL-3.0.txt */; };
 		1347EEB1F7D334273C3575FE /* DeviceConnectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB29A4459243C95A94CE394 /* DeviceConnectionTests.swift */; };
 		150B8F7F5E6C2909DE608128 /* PicoFoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A03909A071AB4928F54A0FD /* PicoFoxApp.swift */; };
 		1E958601AE64AE086CF46FBB /* Privacy.md in Resources */ = {isa = PBXBuildFile; fileRef = DA1623145446E764A753E391 /* Privacy.md */; };
@@ -34,6 +35,7 @@
 		6BBE1720ADEAEB785677A513 /* AudioPlaybackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D82DDD21ED7F8323C7B29F /* AudioPlaybackTests.swift */; };
 		6D9ADAA326CF1E13D44B5E3F /* SpeechLevelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D35F484AF203B9C9043A6EC /* SpeechLevelTests.swift */; };
 		72EBF780A990F010DD13A500 /* AppInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C06903B1FB002C7F29110B1 /* AppInformationView.swift */; };
+		746D3526514D31BC0808328F /* GPL-3.0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6D143EC39261B19BBFA88101 /* GPL-3.0.txt */; };
 		7A579E7E7B1D90B2EE9A3622 /* AudioImportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C5C2AC95AC0720BE04574 /* AudioImportTests.swift */; };
 		7ADB3E5F54AFBE9EC439165B /* Support.md in Resources */ = {isa = PBXBuildFile; fileRef = 3DE598B8F76C3794491ACAAA /* Support.md */; };
 		8381AB66285A6B0FEDC3B76A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3756511FFD518A453AA4A478 /* Assets.xcassets */; };
@@ -87,6 +89,7 @@
 		5D933B44893A4635B38B8613 /* PicoFox */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PicoFox; path = .; sourceTree = SOURCE_ROOT; };
 		61B5F51D5E74BD9C14CF3A0C /* FactoryAudioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryAudioTests.swift; sourceTree = "<group>"; };
 		6722EC0CC8D37E4DBC40B347 /* AudioPlayback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayback.swift; sourceTree = "<group>"; };
+		6D143EC39261B19BBFA88101 /* GPL-3.0.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GPL-3.0.txt"; sourceTree = "<group>"; };
 		736D7D2DC847CE4FDCB023C7 /* AudioPreviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPreviewTests.swift; sourceTree = "<group>"; };
 		7BF1F5CC68E10FEF91799F4E /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		8227B0BDDA347DCE494FEC66 /* SpeechAudioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechAudioTests.swift; sourceTree = "<group>"; };
@@ -145,6 +148,7 @@
 		415F5D43A53778A2651E2654 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6D143EC39261B19BBFA88101 /* GPL-3.0.txt */,
 				DA1623145446E764A753E391 /* Privacy.md */,
 				7BF1F5CC68E10FEF91799F4E /* PrivacyInfo.xcprivacy */,
 				3DE598B8F76C3794491ACAAA /* Support.md */,
@@ -343,6 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8381AB66285A6B0FEDC3B76A /* Assets.xcassets in Resources */,
+				746D3526514D31BC0808328F /* GPL-3.0.txt in Resources */,
 				1E958601AE64AE086CF46FBB /* Privacy.md in Resources */,
 				9E1806E2698C69A62B65A5A3 /* PrivacyInfo.xcprivacy in Resources */,
 				7ADB3E5F54AFBE9EC439165B /* Support.md in Resources */,
@@ -354,6 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A2048FCDA7491FCB27B008F /* Assets.xcassets in Resources */,
+				0E9E5379494C16EE65090FB8 /* GPL-3.0.txt in Resources */,
 				EED79BE7AA76ADAD7E06DA19 /* Privacy.md in Resources */,
 				691949C405528604D94F6EED /* PrivacyInfo.xcprivacy in Resources */,
 				597CAB312443C1A451E1D6DB /* Support.md in Resources */,
@@ -488,7 +494,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -694,7 +700,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -774,7 +780,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
